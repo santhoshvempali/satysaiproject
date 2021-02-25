@@ -1,0 +1,75 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    
+}
+ 
+body{
+  background-image: url("images/background4.jpg");
+  background-size: cover;
+ 
+}
+.menubar{
+  text-align: center;
+  margin: 0%;
+
+}
+
+.menubar ul{
+  display: inline-flex;
+  color: rgb(80, 79, 78);
+  list-style: none;
+  background-color: rgb(34, 17, 17);
+  
+}
+
+.menubar ul li{
+ width: 120px;
+ margin: 15px;
+ margin-right: 25px;
+ padding: 15px;
+ font-size: 18px;
+  
+}
+
+.menubar ul li a{
+  text-decoration: none;
+  color: antiquewhite;
+
+}
+.menubar ul li:hover{
+        background: #6b3420;
+        border-radius: 3px;
+}
+.sub-menu{
+  display: none;
+ 
+}
+.menubar ul li:hover .sub-menu{
+  display: block;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: -15px;
+}
+.menubar ul li:hover .sub-menu ul{
+  display: block;
+  margin: 10px;
+}
+.menubar ul li:hover .sub-menu ul li{
+  width: 85px;
+  padding: 10px;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+.menubar ul li:hover .sub-menu ul li:hover{
+  color: rgb(204, 181, 150);
+}
+
+.h{
+  text-align: center;
+  font-size: 65px;
+  color: rgb(219, 224, 228);
+  font-family: 'Oi', cursive;
+  font-style: italic;
+}
